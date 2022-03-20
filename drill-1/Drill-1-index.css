@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+.upper-bar {
+  height: 150px;
+  width: 1000px;
+  background-color: rgb(62, 62, 60);
+  position: relative;
+  align-items: center;
+  z-index: 1;
+}
+.left-bar {
+  height: 750px;
+  width: 150px;
+  background-color: rgb(206, 206, 206);
+  position: absolute;
+  z-index: 2;
+}
+
+.right-bar {
+  height: 750px;
+  width: 150px;
+  background-color: rgb(206, 206, 206);
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+}
+.bottom-bar {
+  height: 150px;
+  width: 750px;
+  background-color: rgb(62, 62, 60);
+  position: fixed;
+  bottom: 0px;
+  left: 50px;
+  right: 50px;
+}
